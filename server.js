@@ -22,7 +22,7 @@ db.mongoose
 
 app.use(express.static(path));
 var corsOptions = {
-  origin: "http://localhost:8080",
+  origin: "https://kesim-sms.herokuapp.com/",
 };
 
 app.use(express.urlencoded({ extended: true }));
